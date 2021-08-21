@@ -1,0 +1,52 @@
+.heading{
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    padding-top: 20px;
+    color: #230903;
+    box-shadow: 5px 5px 5px #a52501;
+    background-color: rgb(243, 122, 88);
+    font-family: 'Playfair Display', serif;
+}
+.heading_div{
+    float: none;
+    background-color: #c6a9e7;
+    padding: 10px;
+    border-radius: 20px;
+    color: #230903;
+    box-shadow: 5px 5px 10px rgb(82, 10, 124);
+}
+.heading_div2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.result_para_tag{
+font-size: 18px;
+box-shadow: 5px 5px 5px #f46036;
+font-family: 'Playfair Display', serif;
+}
+.copy_right_footer{
+    position: fixed;
+    width: 100%;
+    color: #510881;
+    bottom: 0;
+    text-align: center;
+    line-height: 3;
+    background-color: #b697da;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: large;
+}
+canvas{
+    border: 5px solid coral;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(207, 57, 87);
+    margin-top:140px;
+    animation-name: Faizu;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes Faizu{
+    from{box-shadow: 5px 5px 35px rgb(207, 57, 87);}
+    to{box-shadow:5px 5px 35px rgb(65, 3, 136);}
+}
